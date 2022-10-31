@@ -1,0 +1,120 @@
+[
+    {
+        "dojo": "JUNSEIKHAN Hombu Dojo",
+        "sensei": {
+            "nombre": "Raul Moran de Anda",
+            "grado": "6 Dan"
+        },
+        "ubicacion": "Aguascalientes, Mexico",
+        "integrantes": [
+            {
+                "nombre": "Gilberto Rodarte Martinez",
+                "grado": "2 Dan"
+            },
+            {
+                "nombre": "Jose Luis Diaz Murillo",
+                "grado": "2 Dan"
+            },
+            {
+                "nombre": "Gerardo Martinez",
+                "grado": "1 Dan"
+            },
+            {
+                "nombre": "Gilio Rosales Martinez",
+                "grado": "1 Dan"
+            },
+            {
+                "nombre": "Octavio Ibarra Rodriguez",
+                "grado": "1 Dan"
+            }
+        ]
+    },
+    {
+        "dojo": "Shinjikan Dojo",
+        "sensei": {
+            "nombre": "Bernardo Ramirez",
+            "grado": "2 Dan"
+        },
+        "ubicacion": "Aguascalientes, Mexico"
+    },
+    {
+        "dojo": "ANSHINKAN Dojo",
+        "sensei": {
+            "nombre": "Salvador Roberto Aleman Colon",
+            "grado": "2 Dan"
+        },
+        "ubicacion": "Aguascalientes, Mexico"
+    },
+    {
+        "dojo": "JUNSEIKHAN USA Hombu Dojo",
+        "sensei": {
+            "nombre": "Jose Alberto Ruiz Muro",
+            "grado": "4 Dan"
+        },
+        "ubicacion": "Houston, Texas"
+    },
+    {
+        "dojo": "YUISHINKAN Hombu Dojo",
+        "sensei": {
+            "nombre": "Marco Tulio Diaz Diaz",
+            "grado": "8 Dan"
+        },
+        "ubicacion": "San Pedro Sula, Honduras"
+    },
+    {
+        "dojo": "Marco Tulio Diaz Karate Dojo",
+        "sensei": {
+            "nombre": "Marco Tulio Diaz Najar",
+            "grado": "6 Dan"
+        },
+        "ubicacion": "San Pedro Sula, Honduras"
+    },
+    {
+        "dojo": "AOSAGINOHI Karate Dojo",
+        "sensei": {
+            "nombre": "Carlo Alonso Diaz Najar",
+            "grado": "6 Dan"
+        },
+        "ubicacion": "San Pedro Sula, Honduras"
+    },
+    {
+        "dojo": "WIS Dojo",
+        "sensei": {
+            "nombre": "Wilfredo Lopez Velazquez",
+            "grado": "6 Dan"
+        },
+        "ubicacion": "San Rosa de Copan, Honduras"
+    },
+    {
+        "dojo": "KiGaMitsuru Dojo",
+        "sensei": {
+            "nombre": "Cesar E. Diaz",
+            "grado": ""
+        },
+        "ubicacion": "San Pedro Sula, Honduras"
+    },
+    {
+        "dojo": "Eman Yueru Dojo",
+        "sensei": {
+            "nombre": "Dennis Castro Contreras",
+            "grado": "3 Dan"
+        },
+        "ubicacion": "San Pedro Sula, Honduras"
+    },
+    {
+        "dojo": "ShinKi Tai Dojo",
+        "sensei": {
+            "nombre": "Roberto Lainez",
+            "grado": "2 Dan"
+        },
+        "ubicacion": "San Pedro Sula, Honduras"
+    },
+    {
+        "dojo": "JUNSEIKHAN Los Castanos",
+        "sensei": {
+            "nombre": "Jose Hector Midence",
+            "grado": "2 Dan"
+        },
+        "ubicacion": "Choloma, Cortes"
+    }
+]

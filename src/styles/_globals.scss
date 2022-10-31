@@ -1,0 +1,75 @@
+.body {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: $white;
+}
+
+
+.cellButton {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+
+    button {
+        height: 100%;
+        background-color: $yellow;
+        border: none;
+
+        p {
+            color: $blue;
+            font-weight: bold;
+            writing-mode: vertical-rl;
+            text-orientation: upright;
+            background-color: $yellow;
+        }
+    }
+}
+
+@media (orientation: portrait) {
+    .cellButton {
+        width: 100vw;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        z-index: 1;
+
+        button {
+            width: 49%;
+            height: 3rem;
+            background-color: $yellow;
+            border: .1rem solid $blue;
+
+            p {
+                color: $blue;
+                font-weight: bold;
+                writing-mode: horizontal-tb;
+                background-color: $yellow;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1120px) {
+    .body {
+        min-height: auto;
+        color: $black;
+    }
+
+    .cellButton {
+        display: none;
+    }
+}
