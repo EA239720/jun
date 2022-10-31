@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.84c26783.css",
+    "main.js": "/static/js/main.e62f686b.js",
+    "static/media/LETRAS DORADO.png": "/static/media/LETRAS DORADO.2943e8276c3191424a74.png",
+    "static/media/LOGO DORADO.png": "/static/media/LOGO DORADO.2302cec45cc3657285ca.png",
+    "static/media/insta.png": "/static/media/insta.1b21d77ab5e8f37e4595.png",
+    "index.html": "/index.html",
+    "main.84c26783.css.map": "/static/css/main.84c26783.css.map",
+    "main.e62f686b.js.map": "/static/js/main.e62f686b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.84c26783.css",
+    "static/js/main.e62f686b.js"
+  ]
+}
