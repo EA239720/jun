@@ -14,6 +14,7 @@ export default function Dojos({ setP }) {
             {
                 Data.map(d => (
                     <Card
+                        key={d.dojo}
                         dojo={d.dojo}
                         sensei={d.sensei}
                         ciudad={d.ubicacion}
