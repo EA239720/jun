@@ -1,6 +1,7 @@
 [
     {
         "dojo": "JUNSEIKHAN Hombu Dojo",
+        "origen": "MEXICO",
         "sensei": {
             "nombre": "Raul Moran de Anda",
             "grado": "6 Dan"
@@ -31,6 +32,7 @@
     },
     {
         "dojo": "Shinjikan Dojo",
+        "origen": "MEXICO",
         "sensei": {
             "nombre": "Bernardo Ramirez",
             "grado": "2 Dan"
@@ -39,6 +41,7 @@
     },
     {
         "dojo": "ANSHINKAN Dojo",
+        "origen": "MEXICO",
         "sensei": {
             "nombre": "Salvador Roberto Aleman Colon",
             "grado": "2 Dan"
@@ -47,6 +50,7 @@
     },
     {
         "dojo": "JUNSEIKHAN USA Hombu Dojo",
+        "origen": "USA",
         "sensei": {
             "nombre": "Jose Alberto Ruiz Muro",
             "grado": "4 Dan"
@@ -55,6 +59,7 @@
     },
     {
         "dojo": "YUISHINKAN Hombu Dojo",
+        "origen": "HONDURAS",
         "sensei": {
             "nombre": "Marco Tulio Diaz Diaz",
             "grado": "8 Dan"
@@ -63,6 +68,7 @@
     },
     {
         "dojo": "Marco Tulio Diaz Karate Dojo",
+        "origen": "HONDURAS",
         "sensei": {
             "nombre": "Marco Tulio Diaz Najar",
             "grado": "6 Dan"
@@ -71,6 +77,7 @@
     },
     {
         "dojo": "AOSAGINOHI Karate Dojo",
+        "origen": "HONDURAS",
         "sensei": {
             "nombre": "Carlo Alonso Diaz Najar",
             "grado": "6 Dan"
@@ -79,6 +86,7 @@
     },
     {
         "dojo": "WIS Dojo",
+        "origen": "HONDURAS",
         "sensei": {
             "nombre": "Wilfredo Lopez Velazquez",
             "grado": "6 Dan"
@@ -87,6 +95,7 @@
     },
     {
         "dojo": "KiGaMitsuru Dojo",
+        "origen": "HONDURAS",
         "sensei": {
             "nombre": "Cesar E. Diaz",
             "grado": ""
@@ -95,6 +104,7 @@
     },
     {
         "dojo": "Eman Yueru Dojo",
+        "origen": "HONDURAS",
         "sensei": {
             "nombre": "Dennis Castro Contreras",
             "grado": "3 Dan"
@@ -103,6 +113,7 @@
     },
     {
         "dojo": "ShinKi Tai Dojo",
+        "origen": "HONDURAS",
         "sensei": {
             "nombre": "Roberto Lainez",
             "grado": "2 Dan"
@@ -111,6 +122,7 @@
     },
     {
         "dojo": "JUNSEIKHAN Los Castanos",
+        "origen": "HONDURAS",
         "sensei": {
             "nombre": "Jose Hector Midence",
             "grado": "2 Dan"
