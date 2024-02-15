@@ -4,4 +4,36 @@
 .body {
     color: $black;
     background-color: $white;
+
+    .buttons {
+        width: 50%;
+        margin: 2vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        button {
+            width: 25%;
+            padding: 1vw;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            font-size: 1vw;
+            font-weight: 900;
+            color: $black;
+            background-color: $white;
+            border: .1vw solid $black;
+            transition: .2s;
+
+            &:hover {
+                color: $hoverYellow;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
 }

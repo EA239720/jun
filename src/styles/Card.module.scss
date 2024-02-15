@@ -2,7 +2,7 @@
 @import 'globals';
 
 .card {
-    min-width: 100vw;
+    min-width: 30vw;
     font-size: 1rem;
     text-align: center;
 
@@ -26,7 +26,6 @@
     flex-wrap: wrap;
 
     h6 {
-        width:50%;
         margin: 0;
     }
 }
@@ -52,7 +51,6 @@
         width: 90%;
 
         h6 {
-            width: 50%;
             margin: 0;
         }
     }
@@ -64,7 +62,10 @@
     }
 
     .members {
-        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 
         h6 {
             font-size: 1.05rem;
