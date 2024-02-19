@@ -14,19 +14,21 @@ function Menu({ setP }) {
     const sticky = useRef();
 
     useEffect(() => {
+        const currentSticky = sticky.current;
+
         const observer = new IntersectionObserver(([entry]) => {
                 setIsSticky(entry.intersectionRatio < 1);
             },
             { threshold: [1] }
         );
 
-        if(sticky.current) {
-            observer.observe(sticky.current);
+        if(currentSticky) {
+            observer.observe(currentSticky);
         }
 
         return () => {
-            if(sticky.current) {
-                observer.unobserve(sticky.current);
+            if(currentSticky) {
+                observer.unobserve(currentSticky);
             }
         }
     }, []);

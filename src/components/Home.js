@@ -2,8 +2,6 @@ import styles from '../styles/Home.module.scss';
 
 import Logo from '../Assets/LOGO DORADO.png';
 
-import { MdArrowForwardIos, MdArrowBackIosNew } from 'react-icons/md';
-
 export default function Home({ setP }) {
     return (
         <div className={styles.body}>

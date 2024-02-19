@@ -1,8 +1,8 @@
 import styles from '../../styles/Card.module.scss';
 
-import face from '../../Assets/icons/face.png'
-import insta from '../../Assets/icons/insta.png'
-import tiktok from '../../Assets/icons/tiktok.png'
+// import face from '../../Assets/icons/face.png'
+// import insta from '../../Assets/icons/insta.png'
+// import tiktok from '../../Assets/icons/tiktok.png'
 
 function Card({ dojo, sensei, ciudad, integrantes }) {
     return (
