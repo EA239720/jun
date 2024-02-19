@@ -34,7 +34,7 @@ function Menu({ setP }) {
     return (
         <div ref={sticky} className={styles.body} stik={isSticky ? 1 : 0} men={menu}>
             <button className={styles.menuButton} onClick={() => setMenu(menu === 1 ? 2 : 1)}><img src={menu === 0 ? menuIcon : menu === 1 ? closeButton : menuButton} alt='menu' /></button>
-            <div className={styles.menu>
+            <div className={styles.menu}>
                 <img src={header} alt='head' className={styles.header} />
                 <a href={'#'} onClick={() => setP(1)}>INICIO</a>
                 <a href={'#'} onClick={() => setP(2)}>HISTORIA</a>
