@@ -51,7 +51,7 @@
             width: 100%;
         }
 
-        a {
+        button {
             width: 60%;
             height: 5%;
             display: flex;
@@ -60,6 +60,7 @@
             align-items: center;
             text-decoration: none;
             color: $white;
+            background-color: $blue;
             border: 2px solid $white;
 
             &:hover {
@@ -122,7 +123,7 @@
             width: 100%;
         }
 
-        a {
+        button {
             width: 60%;
             height: 5%;
             display: flex;
@@ -131,6 +132,7 @@
             align-items: center;
             text-decoration: none;
             color: $white;
+            background-color: $blue;
             border: 2px solid $white;
 
             &:hover {
@@ -171,7 +173,7 @@
         gap: 0;
         opacity: 1;
 
-        a {
+        button {
             width: 25%;
             height: 100%;
             display: flex;
@@ -222,7 +224,7 @@
         gap: 0;
         opacity: 1;
 
-        a {
+        button {
             width: 25%;
             height: 100%;
             display: flex;

@@ -36,10 +36,10 @@ function Menu({ setP }) {
             <button className={styles.menuButton} onClick={() => setMenu(menu === 1 ? 2 : 1)}><img src={menu === 0 ? menuIcon : menu === 1 ? closeButton : menuButton} alt='menu' /></button>
             <div className={styles.menu}>
                 <img src={header} alt='head' className={styles.header} />
-                <a href={'#'} onClick={() => setP(1)}>INICIO</a>
-                <a href={'#'} onClick={() => setP(2)}>HISTORIA</a>
-                <a href={'#'} onClick={() => setP(3)}>FILOSOFIA</a>
-                <a href={'#'} onClick={() => setP(4)}>DOJOS</a>
+                <button onClick={() => setP(1)}>INICIO</button>
+                <button onClick={() => setP(2)}>HISTORIA</button>
+                <button onClick={() => setP(3)}>FILOSOFIA</button>
+                <button onClick={() => setP(4)}>DOJOS</button>
             </div>
         </div>
     );
