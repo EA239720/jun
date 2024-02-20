@@ -7,8 +7,8 @@ import styles from '../styles/Dojos.module.scss';
 import Data from '../Data/Dojos.json';
 
 export default function Dojos({ setP }) {
-    const [origen, setOrigen] = useState('HONDURAS');
-    const [options, setOptions] = useState(true);
+    const [origen, setOrigen] = useState('');
+    const [options, setOptions] = useState(false);
 
     return (
         <div className={styles.body}>
