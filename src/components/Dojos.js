@@ -7,14 +7,23 @@ import styles from '../styles/Dojos.module.scss';
 import Data from '../Data/Dojos.json';
 
 export default function Dojos({ setP }) {
-    const [origen, setOrigen] = useState('');
+    const [origen, setOrigen] = useState('HONDURAS');
+    const [options, setOptions] = useState(true);
 
     return (
         <div className={styles.body}>
-            <div className={styles.cellButton}>
-                <button onClick={() => setP(3)}> <p> FILOSOFIA </p> </button>
-                <button onClick={() => setP(1)}> <p> INICIO </p> </button>
-            </div>
+            {options ?
+                <div className={styles.menuOptions} onClick={() => setOptions(false)}>
+                    <div className={styles.options}>
+                        <button onClick={() => {setOrigen('MEXICO');setOptions(false);}}>MEXICO</button> 
+                        <button onClick={() => {setOrigen('USA');setOptions(false);}}>USA</button> 
+                        <button onClick={() => {setOrigen('HONDURAS');setOptions(false);}}>HONDURAS</button> 
+                    </div>
+                </div>
+                : 
+                null
+            }
+            <button className={styles.select} onClick={() => setOptions(true)}>{origen === '' ? 'Pais' : origen}</button>
             <div className={styles.buttons}>
                 <button onClick={() => setOrigen('MEXICO')}>México</button>
                 <button onClick={() => setOrigen('USA')}>USA</button>
