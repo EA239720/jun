@@ -9,7 +9,7 @@ function Card({ dojo, sensei, ciudad, integrantes }) {
         <div className={styles.card}>
             <h2 style={{color: '#BDA100'}}>{dojo}</h2>
             <h3>{ciudad}</h3>
-	    <h3>Sensei</h3>
+	          <h3>Sensei</h3>
             <h3 style={{color: '#BDA100'}}>{sensei.nombre + ' - ' + sensei.grado}</h3>
             { integrantes ?
                 <>

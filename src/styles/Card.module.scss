@@ -14,21 +14,23 @@
     h4 {
         margin: 0;
     }
-}
+    
+    .members {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
 
-.members {
-    width: 80%;
-    margin: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    flex-wrap: wrap;
-
-    h6 {
-        margin: 0;
+        h6 {
+            margin: 0;
+        }
     }
 }
+
+
 
 @media (orientation: landscape) {
     .card {
