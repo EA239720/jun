@@ -51,9 +51,18 @@
             width: 100%;
         }
 
+        div {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            gap: 2rem;
+        }
+
         button {
             width: 60%;
-            height: 5%;
+            height: 42px;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -123,9 +132,18 @@
             width: 100%;
         }
 
+        div {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            gap: 2rem;
+        }
+
         button {
             width: 60%;
-            height: 5%;
+            height: 42px;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -139,6 +157,172 @@
                color: $hoverYellow;
                border: 2px solid $hoverYellow;
                cursor: pointer;
+            }
+        }
+    }
+}
+
+@media (orientation: landscape) {
+    .body {
+        width: 0vw;
+        height: 100dvh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        left: 0px;
+        background-color: $blue;
+        z-index: 1;
+        transition: .5s;
+        transition-delay: .5s;
+    
+        .menuButton {
+            width: 48px;
+            height: 48px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            top: 2rem;
+            left: 2rem;
+            color: $yellow;
+            border: none;
+            border-radius: 1rem;
+            background-color: $blue;
+            z-index: 2;
+    
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    
+        .menu {
+            height: 100%;
+            padding: 1rem;
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+            opacity: 0;
+            transition: .5s;
+    
+            .header {
+                width: 40%;
+            }
+
+            div {
+                width: 50%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                align-items: center;
+                gap: 2rem;
+            }
+    
+            button {
+                width: 60%;
+                height: 42px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-decoration: none;
+                color: $white;
+                background-color: $blue;
+                border: 2px solid $white;
+    
+                &:hover {
+                   color: $hoverYellow;
+                   border: 2px solid $hoverYellow;
+                   cursor: pointer;
+                }
+            }
+        }
+    }
+
+    .body[men='1'] {
+        width: 100vw;
+        height: 100dvh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        left: 0px;
+        background-color: $blue;
+        z-index: 1;
+        transition: .5s;
+    
+        .menuButton {
+            width: 48px;
+            height: 48px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            top: 2rem;
+            left: 2rem;
+            color: $yellow;
+            border: none;
+            border-radius: 1rem;
+            background-color: $blue;
+            z-index: 2;
+    
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    
+        .menu {
+            height: 100%;
+            padding: 1rem;
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+            opacity: 1;
+            transition: .5s;
+            transition-delay: .5s;
+    
+            .header {
+                width: 40%;
+            }
+
+            div {
+                width: 50%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                align-items: center;
+                gap: 2rem;
+            }
+    
+            button {
+                width: 60%;
+                height: 42px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-decoration: none;
+                color: $white;
+                background-color: $blue;
+                border: 2px solid $white;
+    
+                &:hover {
+                   color: $hoverYellow;
+                   border: 2px solid $hoverYellow;
+                   cursor: pointer;
+                }
             }
         }
     }
@@ -172,6 +356,15 @@
         align-items: center;
         gap: 0;
         opacity: 1;
+
+        div {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+            gap: 0;
+        }
 
         button {
             width: 25%;
@@ -224,6 +417,15 @@
         align-items: center;
         gap: 0;
         opacity: 1;
+
+        div {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+            gap: 0;
+        }
 
         button {
             width: 25%;
